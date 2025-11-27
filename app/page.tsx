@@ -1,4 +1,5 @@
 import { ProblemForm } from "@/components/problem-form";
+import { RotatingText } from "@/components/rotating-text";
 
 export default function Home() {
   return (
@@ -15,7 +16,9 @@ export default function Home() {
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-foreground leading-tight mb-6">
             Get the Best Beauty Results
-            <span className="text-primary block mt-2">for Your Money</span>
+            <span className="text-primary block mt-2">
+              <RotatingText />
+            </span>
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
