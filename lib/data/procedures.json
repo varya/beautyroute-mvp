@@ -1,0 +1,223 @@
+[
+  {
+    "id": "proc-001",
+    "name": "Chemical Peel",
+    "description": "A treatment that uses acid solution to remove dead skin cells, revealing smoother, brighter skin underneath.",
+    "category": "skin",
+    "duration": 45,
+    "priceMin": 80,
+    "priceMax": 200,
+    "solves": ["acne", "pigmentation", "dull_skin", "uneven_tone", "wrinkles"],
+    "frequency": "monthly"
+  },
+  {
+    "id": "proc-002",
+    "name": "Hydrafacial",
+    "description": "A multi-step facial treatment that cleanses, exfoliates, extracts, and hydrates the skin.",
+    "category": "face",
+    "duration": 60,
+    "priceMin": 150,
+    "priceMax": 300,
+    "solves": ["dry_skin", "oily_skin", "dull_skin", "acne"],
+    "frequency": "monthly"
+  },
+  {
+    "id": "proc-003",
+    "name": "Microneedling",
+    "description": "Creates tiny punctures in the skin to stimulate collagen production and improve texture.",
+    "category": "face",
+    "duration": 60,
+    "priceMin": 200,
+    "priceMax": 400,
+    "solves": ["wrinkles", "acne", "pigmentation", "aging"],
+    "frequency": "monthly"
+  },
+  {
+    "id": "proc-004",
+    "name": "LED Light Therapy",
+    "description": "Uses different wavelengths of light to treat various skin concerns without downtime.",
+    "category": "skin",
+    "duration": 30,
+    "priceMin": 50,
+    "priceMax": 100,
+    "solves": ["acne", "wrinkles", "dull_skin", "aging"],
+    "frequency": "weekly"
+  },
+  {
+    "id": "proc-005",
+    "name": "Botox",
+    "description": "Injectable treatment that temporarily relaxes facial muscles to reduce wrinkles.",
+    "category": "face",
+    "duration": 30,
+    "priceMin": 300,
+    "priceMax": 600,
+    "solves": ["wrinkles", "aging"],
+    "frequency": "quarterly"
+  },
+  {
+    "id": "proc-006",
+    "name": "Dermal Fillers",
+    "description": "Injectable gel that restores volume and fullness to the face.",
+    "category": "face",
+    "duration": 45,
+    "priceMin": 400,
+    "priceMax": 800,
+    "solves": ["wrinkles", "aging", "dark_circles"],
+    "frequency": "quarterly"
+  },
+  {
+    "id": "proc-007",
+    "name": "Laser Hair Removal",
+    "description": "Permanent hair reduction using concentrated light beams.",
+    "category": "body",
+    "duration": 60,
+    "priceMin": 150,
+    "priceMax": 400,
+    "solves": [],
+    "frequency": "biweekly"
+  },
+  {
+    "id": "proc-008",
+    "name": "Scalp Treatment",
+    "description": "Intensive treatment to nourish the scalp and promote healthy hair growth.",
+    "category": "hair",
+    "duration": 45,
+    "priceMin": 60,
+    "priceMax": 150,
+    "solves": ["hair_loss", "damaged_hair"],
+    "frequency": "biweekly"
+  },
+  {
+    "id": "proc-009",
+    "name": "PRP Hair Therapy",
+    "description": "Platelet-rich plasma injections to stimulate hair follicles and promote growth.",
+    "category": "hair",
+    "duration": 60,
+    "priceMin": 400,
+    "priceMax": 800,
+    "solves": ["hair_loss"],
+    "frequency": "monthly"
+  },
+  {
+    "id": "proc-010",
+    "name": "Keratin Treatment",
+    "description": "Smoothing treatment that repairs damaged hair and reduces frizz.",
+    "category": "hair",
+    "duration": 120,
+    "priceMin": 200,
+    "priceMax": 400,
+    "solves": ["damaged_hair"],
+    "frequency": "quarterly"
+  },
+  {
+    "id": "proc-011",
+    "name": "Gel Manicure",
+    "description": "Long-lasting nail polish that cures under UV light.",
+    "category": "nails",
+    "duration": 45,
+    "priceMin": 35,
+    "priceMax": 60,
+    "solves": ["brittle_nails"],
+    "frequency": "biweekly"
+  },
+  {
+    "id": "proc-012",
+    "name": "Nail Strengthening Treatment",
+    "description": "Specialized treatment to repair and strengthen weak, brittle nails.",
+    "category": "nails",
+    "duration": 30,
+    "priceMin": 25,
+    "priceMax": 50,
+    "solves": ["brittle_nails"],
+    "frequency": "weekly"
+  },
+  {
+    "id": "proc-013",
+    "name": "Body Wrap",
+    "description": "Detoxifying treatment that wraps the body in nourishing ingredients.",
+    "category": "body",
+    "duration": 90,
+    "priceMin": 100,
+    "priceMax": 200,
+    "solves": ["cellulite", "dry_skin"],
+    "frequency": "monthly"
+  },
+  {
+    "id": "proc-014",
+    "name": "Radiofrequency Body Treatment",
+    "description": "Uses radio waves to heat tissue and stimulate collagen production.",
+    "category": "body",
+    "duration": 60,
+    "priceMin": 200,
+    "priceMax": 400,
+    "solves": ["cellulite", "aging"],
+    "frequency": "biweekly"
+  },
+  {
+    "id": "proc-015",
+    "name": "Lymphatic Drainage Massage",
+    "description": "Gentle massage technique to reduce fluid retention and puffiness.",
+    "category": "body",
+    "duration": 60,
+    "priceMin": 80,
+    "priceMax": 150,
+    "solves": ["puffiness", "cellulite"],
+    "frequency": "weekly"
+  },
+  {
+    "id": "proc-016",
+    "name": "Eye Treatment",
+    "description": "Targeted treatment for the delicate under-eye area.",
+    "category": "face",
+    "duration": 30,
+    "priceMin": 60,
+    "priceMax": 120,
+    "solves": ["dark_circles", "puffiness", "wrinkles"],
+    "frequency": "biweekly"
+  },
+  {
+    "id": "proc-017",
+    "name": "Vitamin C Facial",
+    "description": "Brightening facial using vitamin C to even skin tone and add radiance.",
+    "category": "face",
+    "duration": 60,
+    "priceMin": 90,
+    "priceMax": 180,
+    "solves": ["dull_skin", "pigmentation", "uneven_tone"],
+    "frequency": "monthly"
+  },
+  {
+    "id": "proc-018",
+    "name": "Oxygen Facial",
+    "description": "Infuses oxygen and nutrients into the skin for instant glow.",
+    "category": "face",
+    "duration": 45,
+    "priceMin": 120,
+    "priceMax": 250,
+    "solves": ["dull_skin", "dry_skin", "aging"],
+    "frequency": "monthly"
+  },
+  {
+    "id": "proc-019",
+    "name": "Deep Cleansing Facial",
+    "description": "Thorough cleansing treatment with extraction to clear pores.",
+    "category": "face",
+    "duration": 75,
+    "priceMin": 70,
+    "priceMax": 140,
+    "solves": ["acne", "oily_skin"],
+    "frequency": "monthly"
+  },
+  {
+    "id": "proc-020",
+    "name": "IPL Photofacial",
+    "description": "Intense pulsed light treatment for sun damage and pigmentation.",
+    "category": "skin",
+    "duration": 45,
+    "priceMin": 250,
+    "priceMax": 500,
+    "solves": ["pigmentation", "uneven_tone", "aging"],
+    "frequency": "monthly"
+  }
+]
+

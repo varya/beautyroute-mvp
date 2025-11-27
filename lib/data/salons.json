@@ -1,0 +1,112 @@
+[
+  {
+    "id": "salon-001",
+    "name": "Glow Beauty Studio",
+    "address": "123 Main Street, Downtown",
+    "rating": 4.8,
+    "phone": "+1 (555) 123-4567",
+    "procedures": [
+      { "procedureId": "proc-001", "price": 120, "availableDays": ["monday", "wednesday", "friday"] },
+      { "procedureId": "proc-002", "price": 180, "availableDays": ["tuesday", "thursday", "saturday"] },
+      { "procedureId": "proc-003", "price": 280, "availableDays": ["monday", "thursday"] },
+      { "procedureId": "proc-004", "price": 70, "availableDays": ["monday", "tuesday", "wednesday", "thursday", "friday"] },
+      { "procedureId": "proc-017", "price": 130, "availableDays": ["wednesday", "saturday"] },
+      { "procedureId": "proc-019", "price": 95, "availableDays": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday"] }
+    ]
+  },
+  {
+    "id": "salon-002",
+    "name": "Luxe Skin Clinic",
+    "address": "456 Park Avenue, Midtown",
+    "rating": 4.9,
+    "phone": "+1 (555) 234-5678",
+    "procedures": [
+      { "procedureId": "proc-003", "price": 350, "availableDays": ["tuesday", "thursday"] },
+      { "procedureId": "proc-005", "price": 450, "availableDays": ["monday", "wednesday", "friday"] },
+      { "procedureId": "proc-006", "price": 550, "availableDays": ["monday", "wednesday", "friday"] },
+      { "procedureId": "proc-016", "price": 90, "availableDays": ["tuesday", "thursday", "saturday"] },
+      { "procedureId": "proc-020", "price": 380, "availableDays": ["monday", "thursday"] }
+    ]
+  },
+  {
+    "id": "salon-003",
+    "name": "Hair Haven",
+    "address": "789 Oak Lane, Westside",
+    "rating": 4.6,
+    "phone": "+1 (555) 345-6789",
+    "procedures": [
+      { "procedureId": "proc-008", "price": 85, "availableDays": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday"] },
+      { "procedureId": "proc-009", "price": 550, "availableDays": ["tuesday", "friday"] },
+      { "procedureId": "proc-010", "price": 280, "availableDays": ["wednesday", "saturday"] }
+    ]
+  },
+  {
+    "id": "salon-004",
+    "name": "Nail Art Palace",
+    "address": "321 Fashion Blvd, Shopping District",
+    "rating": 4.7,
+    "phone": "+1 (555) 456-7890",
+    "procedures": [
+      { "procedureId": "proc-011", "price": 45, "availableDays": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday"] },
+      { "procedureId": "proc-012", "price": 35, "availableDays": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday"] }
+    ]
+  },
+  {
+    "id": "salon-005",
+    "name": "Body Bliss Spa",
+    "address": "555 Wellness Way, Spa District",
+    "rating": 4.8,
+    "phone": "+1 (555) 567-8901",
+    "procedures": [
+      { "procedureId": "proc-007", "price": 250, "availableDays": ["tuesday", "thursday", "saturday"] },
+      { "procedureId": "proc-013", "price": 150, "availableDays": ["monday", "wednesday", "friday"] },
+      { "procedureId": "proc-014", "price": 300, "availableDays": ["tuesday", "friday"] },
+      { "procedureId": "proc-015", "price": 110, "availableDays": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday"] }
+    ]
+  },
+  {
+    "id": "salon-006",
+    "name": "Fresh Face Aesthetics",
+    "address": "888 Beauty Lane, Uptown",
+    "rating": 4.5,
+    "phone": "+1 (555) 678-9012",
+    "procedures": [
+      { "procedureId": "proc-001", "price": 100, "availableDays": ["monday", "wednesday", "friday"] },
+      { "procedureId": "proc-002", "price": 200, "availableDays": ["tuesday", "thursday"] },
+      { "procedureId": "proc-004", "price": 60, "availableDays": ["monday", "tuesday", "wednesday", "thursday", "friday"] },
+      { "procedureId": "proc-016", "price": 80, "availableDays": ["monday", "wednesday", "friday"] },
+      { "procedureId": "proc-017", "price": 110, "availableDays": ["tuesday", "saturday"] },
+      { "procedureId": "proc-018", "price": 160, "availableDays": ["thursday", "saturday"] }
+    ]
+  },
+  {
+    "id": "salon-007",
+    "name": "Elite Skin Center",
+    "address": "999 Premium Plaza, Financial District",
+    "rating": 5.0,
+    "phone": "+1 (555) 789-0123",
+    "procedures": [
+      { "procedureId": "proc-003", "price": 400, "availableDays": ["monday", "wednesday"] },
+      { "procedureId": "proc-005", "price": 550, "availableDays": ["tuesday", "thursday"] },
+      { "procedureId": "proc-006", "price": 700, "availableDays": ["tuesday", "thursday"] },
+      { "procedureId": "proc-009", "price": 750, "availableDays": ["friday"] },
+      { "procedureId": "proc-020", "price": 450, "availableDays": ["monday", "wednesday", "friday"] }
+    ]
+  },
+  {
+    "id": "salon-008",
+    "name": "Natural Beauty Bar",
+    "address": "222 Green Street, Eco District",
+    "rating": 4.4,
+    "phone": "+1 (555) 890-1234",
+    "procedures": [
+      { "procedureId": "proc-001", "price": 90, "availableDays": ["tuesday", "thursday", "saturday"] },
+      { "procedureId": "proc-008", "price": 70, "availableDays": ["monday", "wednesday", "friday"] },
+      { "procedureId": "proc-013", "price": 120, "availableDays": ["tuesday", "saturday"] },
+      { "procedureId": "proc-015", "price": 95, "availableDays": ["monday", "wednesday", "friday", "saturday"] },
+      { "procedureId": "proc-017", "price": 100, "availableDays": ["thursday"] },
+      { "procedureId": "proc-019", "price": 80, "availableDays": ["monday", "tuesday", "wednesday", "thursday", "friday"] }
+    ]
+  }
+]
+
