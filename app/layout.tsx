@@ -83,28 +83,63 @@ export default function RootLayout({
 
         <footer className="border-t border-border/50 mt-20">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-              <div className="flex items-center gap-2">
-                <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center">
-                  <svg
-                    className="w-4 h-4 text-primary"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456z"
-                    />
-                  </svg>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {/* Left side - branding */}
+              <div>
+                <div className="flex items-center gap-2 mb-4">
+                  <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center">
+                    <svg
+                      className="w-4 h-4 text-primary"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={2}
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456z"
+                      />
+                    </svg>
+                  </div>
+                  <span className="font-display text-lg font-medium">BeautyRoute</span>
                 </div>
-                <span className="font-display text-lg font-medium">BeautyRoute</span>
+                <p className="text-sm text-muted-foreground">
+                  © {new Date().getFullYear()} BeautyRoute. Your journey to beauty starts here.
+                </p>
               </div>
-              <p className="text-sm text-muted-foreground">
-                © {new Date().getFullYear()} BeautyRoute. Your journey to beauty starts here.
-              </p>
+
+              {/* Right side - contact */}
+              <div className="md:text-right">
+                <p className="font-display text-lg font-medium mb-3">
+                  Wanna work with me on this startup idea?
+                </p>
+                <div className="space-y-2 text-sm text-muted-foreground">
+                  <p>
+                    <span className="text-foreground">Email:</span>{" "}
+                    <a href="mailto:mail@varya.me" className="hover:text-primary transition-colors">
+                      mail@varya.me
+                    </a>
+                  </p>
+                  <p>
+                    <span className="text-foreground">Phone:</span>{" "}
+                    <a href="tel:+358505750907" className="hover:text-primary transition-colors">
+                      +358 50 575 0907
+                    </a>
+                  </p>
+                  <p>
+                    <span className="text-foreground">LinkedIn:</span>{" "}
+                    <a
+                      href="https://www.linkedin.com/in/varyastepanova/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-primary transition-colors"
+                    >
+                      @varyastepanova
+                    </a>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </footer>
