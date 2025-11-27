@@ -18,7 +18,7 @@ interface SchedulePageProps {
 async function ScheduleContent({ searchParams }: SchedulePageProps) {
   const params = await searchParams;
   const problem = params.problem as BeautyProblem | undefined;
-  const budget = params.budget ? parseInt(params.budget) : 500;
+  const budget = params.budget ? parseInt(params.budget) : 1500;
   const timeframe = params.timeframe ? parseInt(params.timeframe) : 3;
 
   if (!problem) {

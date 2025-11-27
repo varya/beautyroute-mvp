@@ -17,7 +17,7 @@ import { PROBLEM_OPTIONS, CATEGORY_LABELS, BeautyProblem, Category } from "@/lib
 export function ProblemForm() {
   const router = useRouter();
   const [problem, setProblem] = useState<BeautyProblem | "">("");
-  const [budget, setBudget] = useState([500]);
+  const [budget, setBudget] = useState([1500]);
   const [timeframe, setTimeframe] = useState([3]);
 
   const handleSubmit = (e: React.FormEvent) => {
